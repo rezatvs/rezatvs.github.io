@@ -1,0 +1,90 @@
+.right-part p {
+    margin: 0;
+}
+
+.contactCard {
+    background-color: #FCFCFC;
+    -webkit-transition: background-color 0.5s;
+}
+
+.contactCard:hover {
+    background-color: #D5D6D7;
+    -webkit-transition: background-color 0.5s;
+}
+
+.certi-logo {
+    text-align: center;
+    font-size: 3rem;
+    color: #0BA376;
+}
+.certi-id {
+    color: #777777;
+    font-weight: initial
+}
+
+
+
+.certificate-item {
+    -webkit-transition: background-color 0.5s;
+}
+
+.certificate-item:hover {
+    background-color: #F5F5F5;
+    -webkit-transition: background-color 0.5s;
+}
+
+.knowledges li {
+    -webkit-transition: background-color 0.5s;
+}
+
+.knowledges li:hover {
+    background-color: white;
+    color: #0BA376;
+    -webkit-transition: background-color 0.5s;
+}
+
+.research-interests .left-part {
+    width: 10%;
+    display: table-cell;
+    padding-right: 25px;
+    min-height: 100%;
+    text-align: right;
+    vertical-align: top
+}
+
+.research-interests .right-part {
+    width: 90%;
+    display: table-cell;
+    padding-left: 25px;
+    padding-right: 15px;
+    vertical-align: top
+}
+
+
+.research-interests .divider {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    bottom: 0;
+    width: 1px;
+    background-color: #eee
+}
+
+@media only screen and (max-width:480px) {
+    .timeline-second-style .left-part {
+        width: 100%;
+        display: block;
+        padding-left: 25px;
+        min-height: 100%;
+        text-align: left
+    }
+    .timeline-second-style .divider {
+        left: 0
+    }
+    .timeline-second-style .right-part {
+        width: 100%;
+        display: block;
+        padding-left: 25px;
+        padding-right: 0
+    }
+}
